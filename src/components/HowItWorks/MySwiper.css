@@ -1,0 +1,38 @@
+/* MySwiper.css */
+.custom-prev,
+.custom-next {
+  width: 30px;
+  height: 30px;
+  background-color: blue; /* Background color */
+  color: red; /* Arrow color */
+  border-radius: 50%; /* Optional: Circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.custom-prev {
+  left: 10px; /* Position from the left */
+}
+
+.custom-next {
+  right: 10px; /* Position from the right */
+}
+
+.custom-prev::after,
+.custom-next::after {
+  font-size: 16px;
+}
+
+.custom-prev::after {
+  content: "<";
+}
+
+.custom-next::after {
+  content: ">";
+}
