@@ -16,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="font-poppins">
       <BrowserRouter>
         <Nav />
         <Routes>
@@ -31,7 +31,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

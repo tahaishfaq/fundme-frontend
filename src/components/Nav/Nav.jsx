@@ -21,7 +21,7 @@ export default function Nav() {
   return (
     <Disclosure
       as="header"
-      className=" top-0 w-full bg-white duration-100 shadow-xl sticky z-50"
+      className=" top-0 w-full bg-white duration-100 shadow-xl sticky z-50 py-2"
     >
       {({ open }) => (
         <>
@@ -50,7 +50,7 @@ export default function Nav() {
               </div>
               <div>
                 <h1 className="text-green font-extrabold text-3xl cursor-pointer opacity-90 text-green-600">
-                  gofoundme
+                  gofundme
                 </h1>
               </div>
               <div className="relative z-10 flex items-center lg:hidden">
